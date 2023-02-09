@@ -1,0 +1,360 @@
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/OPFexport.clp")
+Defining defclass: Servicio
+Defining defclass: Transporte/Desplazamiento
+Defining defclass: Deporte
+Defining defclass: Educacion
+Defining defclass: EstablecimientoComercial
+Defining defclass: Local
+Defining defclass: Ocio
+Defining defclass: Restauracion
+Defining defclass: Salud
+Defining defclass: Vivienda
+Defining defclass: Piso
+Defining defclass: Ciudad
+Defining defclass: Distrito
+Defining defclass: Localizacion
+Defining defclass: Electrodomesticos
+Defining defclass: Grupo
+Defining defclass: Individual
+Defining defclass: Muebles
+Defining defmessage-handler: Individual
+   Handler escribe-nombre primary defined.
+Defining defmessage-handler: Grupo
+   Handler escribe-nombre primary defined.
+Defining defgeneric: calculo-distancias
+   Method #1 defined.
+Defining defgeneric: instanciarNecesidadesTotales
+   Method #1 defined.
+Defining deftemplate: Habitaciones
+Defining defgeneric: pregunta-preferencias
+   Method #1 defined.
+Defining defglobal: lTrabajos
+Defining defglobal: lEstudios
+TRUE
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/JP3.clp")
+Defining definstances: instances
+TRUE
+CLIPS> (reset)
+CLIPS> (clear)
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/OPFexport.clp")
+Defining defclass: Servicio
+Defining defclass: Transporte/Desplazamiento
+Defining defclass: Deporte
+Defining defclass: Educacion
+Defining defclass: EstablecimientoComercial
+Defining defclass: Local
+Defining defclass: Ocio
+Defining defclass: Restauracion
+Defining defclass: Salud
+Defining defclass: Vivienda
+Defining defclass: Piso
+Defining defclass: Ciudad
+Defining defclass: Distrito
+Defining defclass: Localizacion
+Defining defclass: Electrodomesticos
+Defining defclass: Grupo
+Defining defclass: Individual
+Defining defclass: Muebles
+Defining defmessage-handler: Individual
+   Handler escribe-nombre primary defined.
+Defining defmessage-handler: Grupo
+   Handler escribe-nombre primary defined.
+Defining defgeneric: calculo-distancias
+   Method #1 defined.
+Defining defgeneric: instanciarNecesidadesTotales
+   Method #1 defined.
+Defining deftemplate: Habitaciones
+Defining defgeneric: pregunta-preferencias
+   Method #1 defined.
+Defining defglobal: lTrabajos
+Defining defglobal: lEstudios
+TRUE
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/Juego de pruebas 2.clp")
+Defining definstances: instances
+TRUE
+CLIPS> (reset)
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/Reglas3.clp")
+Defining defrule: NumHabitaciones-Parcialmente +j+j+j
+Defining defrule: NumHabitaciones-Extra +j+j+j
+Defining defrule: Necesidades-Extra +j+j+j
+Defining defrule: Accesibilidad-Extra +j+j+j
+Defining defrule: Servicios-Parcialmente +j+j+j
+Defining defrule: Servicios-Extra +j+j+j
+Defining defrule: ImprimirRecomendacionExtra +j+j
+Defining defrule: ImprimirRecomendacionSi +j+j
+Defining defrule: ImprimirRecomendacionParcial +j+j
+Defining defrule: RecomendacionAceptable +j+j+j+j+j
+Defining defrule: RecomendacionExtra +j+j+j+j
+Defining defrule: RecomendacionParcialmente +j+j+j
+Defining defrule: RecomendacionNo +j+j
+Defining defrule: CumpleServicios-Aceptable +j+j+j+j+j
+Defining defrule: CumpleServicios-Extras =j+j+j+j
+Defining defrule: CumpleServicios-Parcialmente =j+j+j
+Defining defrule: Servicios-Inaceptable +j+j
+Defining defrule: ServiciosSi +j+j+j
+Defining defrule: ServiciosExtra2 +j+j+j
+Defining defrule: ServiciosExtra +j+j+j
+Defining defrule: ServiciosParcialmente +j+j+j
+Defining defrule: ServiciosNo =j+j+j
+Defining defrule: AccesibilidadViviendas-Si +j+j
+Defining defrule: AccesibilidadViviendas-Extra +j+j
+Defining defrule: AccesibilidadViviendas-No +j+j
+Defining defrule: Cumple-Necesidades-Extra =j+j+j
+Defining defrule: Cumplimiento-Necesidades +j+j+j+j
+Defining defrule: Incumplimiento-Necesidades =j+j+j
+Defining defrule: NecesidadesExtra =j+j+j+j
+Defining defrule: cumplimiento-Habitaciones-Extra +j+j
+Defining defrule: cumplimiento-Habitaciones-Si +j+j
+Defining defrule: cumplimiento-Habitaciones-Parcialmente +j+j
+Defining defrule: cumplimiento-Habitaciones-No +j+j
+Defining defrule: cumplimiento-Mascota-No +j+j
+Defining defrule: cumplimiento-Mascota-Si +j+j
+Defining defrule: CumpleAdaptabilidadSi +j+j
+Defining defrule: CumpleAdaptabilidadNo +j+j
+Defining defrule: ServicioExtra-EstablecimientoComercial +j+j+j
+Defining defrule: ServicioExtra-Educacion +j+j+j
+Defining defrule: ServicioExtra-Transporte +j+j+j
+Defining defrule: ServicioExtra-Restauracion +j+j+j
+Defining defrule: ServicioExtra-Salud +j+j+j
+Defining defrule: ServicioExtra-Deporte +j+j+j
+Defining defrule: ServicioExtra-Ocio +j+j+j
+Defining defrule: Distancias-EstablecimientoComercial +j+j+j
+Defining defrule: Distancias-Educacion =j+j+j
+Defining defrule: Distancias-Transporte =j+j+j
+Defining defrule: Distancias-Restauracion =j+j+j
+Defining defrule: Distancias-Salud =j+j+j
+Defining defrule: Distancias-Deporte =j+j+j
+Defining defrule: Distancias-Ocio =j+j+j
+Defining defrule: Necesidades +j+j
+Defining defrule: MascotaSi +j+j+j
+Defining defrule: MascotaNo =j+j+j
+Defining defrule: ViviendaNoAdaptada +j+j+j
+Defining defrule: ViviendaAdaptada +j+j+j
+Defining defrule: DiscapacidadNo +j+j+j
+Defining defrule: DiscapacidadSi +j+j
+Defining defrule: capacidad-monetaria-Bajo +j+j+j
+Defining defrule: capacidad-monetaria-Alto +j+j+j
+Defining defrule: capacidad-monetaria-Ninguno +j+j+j
+Defining defrule: Paro +j+j
+Defining defrule: Trabajadores +j+j
+Defining defrule: Estudiantes +j+j
+Defining defrule: Menor +j+j
+Defining defrule: Mayor +j+j
+Defining defrule: Adulto +j+j
+Defining defrule: Equipamiento-Vivienda +j+j
+Defining defrule: NumHabitaciones +j+j+j
+Defining defrule: Necesidades-Totales +j+j
+Defining defrule: preguntar-individuos +j
+Defining defrule: preguntar-grupo +j
+Defining defrule: guarda-datosE +j+j
+Defining defrule: guarda-datosT +j+j
+TRUE
+CLIPS> (run)
+Esta ciudad dispone de los siguientes servicios:
+Ocio
+     Ruidoso
+     NoRuidoso
+Deporte
+     Gimnasio
+     Club Deportivo
+Educacion
+     Parvulario
+     Primaria
+     Secundaria
+     Superior
+Transporte
+     Metro
+     Autobus
+     Tramvia
+Establecimiento Comercial
+     Supermercado
+     Hipermercado
+     Local
+     Mercadillo
+     Mercado
+Salud
+     CAP
+     Farmacia
+     Hospital
+Restauracion
+     Bar
+     Restaurante
+Indica un servicio deseado: Ocio
+Indica el subtipo del servicio deseado: 1
+Indica a que distancia quieres el servicio {Cerca|Media} 1
+Quieres anadir otro servicio? (s/n) 1
+Cuanto dinero teneis? (Porfavor introducir valores >=0) a
+[ARGACCES5] Function integer expected argument #1 to be of type integer
+[PRCCODE4] Execution halted during the actions of defrule preguntar-grupo.
+CLIPS> (clear)
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/OPFexport.clp")
+Defining defclass: Servicio
+Defining defclass: Transporte/Desplazamiento
+Defining defclass: Deporte
+Defining defclass: Educacion
+Defining defclass: EstablecimientoComercial
+Defining defclass: Local
+Defining defclass: Ocio
+Defining defclass: Restauracion
+Defining defclass: Salud
+Defining defclass: Vivienda
+Defining defclass: Piso
+Defining defclass: Ciudad
+Defining defclass: Distrito
+Defining defclass: Localizacion
+Defining defclass: Electrodomesticos
+Defining defclass: Grupo
+Defining defclass: Individual
+Defining defclass: Muebles
+Defining defmessage-handler: Individual
+   Handler escribe-nombre primary defined.
+Defining defmessage-handler: Grupo
+   Handler escribe-nombre primary defined.
+Defining defgeneric: calculo-distancias
+   Method #1 defined.
+Defining defgeneric: instanciarNecesidadesTotales
+   Method #1 defined.
+Defining deftemplate: Habitaciones
+Defining defgeneric: pregunta-preferencias
+   Method #1 defined.
+Defining defglobal: lTrabajos
+Defining defglobal: lEstudios
+TRUE
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/Juego de pruebas 2.clp")
+Defining definstances: instances
+TRUE
+CLIPS> (reset)
+CLIPS> (load "C:/Users/danie/OneDrive/Escritorio/Practicaia2/Vfinal/Reglas3.clp")
+Defining defrule: NumHabitaciones-Parcialmente +j+j+j
+Defining defrule: NumHabitaciones-Extra +j+j+j
+Defining defrule: Necesidades-Extra +j+j+j
+Defining defrule: Accesibilidad-Extra +j+j+j
+Defining defrule: Servicios-Parcialmente +j+j+j
+Defining defrule: Servicios-Extra +j+j+j
+Defining defrule: ImprimirRecomendacionExtra +j+j
+Defining defrule: ImprimirRecomendacionSi +j+j
+Defining defrule: ImprimirRecomendacionParcial +j+j
+Defining defrule: RecomendacionAceptable +j+j+j+j+j
+Defining defrule: RecomendacionExtra +j+j+j+j
+Defining defrule: RecomendacionParcialmente +j+j+j
+Defining defrule: RecomendacionNo +j+j
+Defining defrule: CumpleServicios-Aceptable +j+j+j+j+j
+Defining defrule: CumpleServicios-Extras =j+j+j+j
+Defining defrule: CumpleServicios-Parcialmente =j+j+j
+Defining defrule: Servicios-Inaceptable +j+j
+Defining defrule: ServiciosSi +j+j+j
+Defining defrule: ServiciosExtra2 +j+j+j
+Defining defrule: ServiciosExtra +j+j+j
+Defining defrule: ServiciosParcialmente +j+j+j
+Defining defrule: ServiciosNo =j+j+j
+Defining defrule: AccesibilidadViviendas-Si +j+j
+Defining defrule: AccesibilidadViviendas-Extra +j+j
+Defining defrule: AccesibilidadViviendas-No +j+j
+Defining defrule: Cumple-Necesidades-Extra =j+j+j
+Defining defrule: Cumplimiento-Necesidades +j+j+j+j
+Defining defrule: Incumplimiento-Necesidades =j+j+j
+Defining defrule: NecesidadesExtra =j+j+j+j
+Defining defrule: cumplimiento-Habitaciones-Extra +j+j
+Defining defrule: cumplimiento-Habitaciones-Si +j+j
+Defining defrule: cumplimiento-Habitaciones-Parcialmente +j+j
+Defining defrule: cumplimiento-Habitaciones-No +j+j
+Defining defrule: cumplimiento-Mascota-No +j+j
+Defining defrule: cumplimiento-Mascota-Si +j+j
+Defining defrule: CumpleAdaptabilidadSi +j+j
+Defining defrule: CumpleAdaptabilidadNo +j+j
+Defining defrule: ServicioExtra-EstablecimientoComercial +j+j+j
+Defining defrule: ServicioExtra-Educacion +j+j+j
+Defining defrule: ServicioExtra-Transporte +j+j+j
+Defining defrule: ServicioExtra-Restauracion +j+j+j
+Defining defrule: ServicioExtra-Salud +j+j+j
+Defining defrule: ServicioExtra-Deporte +j+j+j
+Defining defrule: ServicioExtra-Ocio +j+j+j
+Defining defrule: Distancias-EstablecimientoComercial +j+j+j
+Defining defrule: Distancias-Educacion =j+j+j
+Defining defrule: Distancias-Transporte =j+j+j
+Defining defrule: Distancias-Restauracion =j+j+j
+Defining defrule: Distancias-Salud =j+j+j
+Defining defrule: Distancias-Deporte =j+j+j
+Defining defrule: Distancias-Ocio =j+j+j
+Defining defrule: Necesidades +j+j
+Defining defrule: MascotaSi +j+j+j
+Defining defrule: MascotaNo =j+j+j
+Defining defrule: ViviendaNoAdaptada +j+j+j
+Defining defrule: ViviendaAdaptada +j+j+j
+Defining defrule: DiscapacidadNo +j+j+j
+Defining defrule: DiscapacidadSi +j+j
+Defining defrule: capacidad-monetaria-Bajo +j+j+j
+Defining defrule: capacidad-monetaria-Alto +j+j+j
+Defining defrule: capacidad-monetaria-Ninguno +j+j+j
+Defining defrule: Paro +j+j
+Defining defrule: Trabajadores +j+j
+Defining defrule: Estudiantes +j+j
+Defining defrule: Menor +j+j
+Defining defrule: Mayor +j+j
+Defining defrule: Adulto +j+j
+Defining defrule: Equipamiento-Vivienda +j+j
+Defining defrule: NumHabitaciones +j+j+j
+Defining defrule: Necesidades-Totales +j+j
+Defining defrule: preguntar-individuos +j
+Defining defrule: preguntar-grupo +j
+Defining defrule: guarda-datosE +j+j
+Defining defrule: guarda-datosT +j+j
+TRUE
+CLIPS> (run)
+Esta ciudad dispone de los siguientes servicios:
+Ocio
+     Ruidoso
+     NoRuidoso
+Deporte
+     Gimnasio
+     Club Deportivo
+Educacion
+     Parvulario
+     Primaria
+     Secundaria
+     Superior
+Transporte
+     Metro
+     Autobus
+     Tramvia
+Establecimiento Comercial
+     Supermercado
+     Hipermercado
+     Local
+     Mercadillo
+     Mercado
+Salud
+     CAP
+     Farmacia
+     Hospital
+Restauracion
+     Bar
+     Restaurante
+Indica un servicio deseado: Ocio
+Indica el subtipo del servicio deseado: NoRuidoso
+Indica a que distancia quieres el servicio {Cerca|Media} Cerca
+Quieres anadir otro servicio? (s/n) n
+Cuanto dinero teneis? (Porfavor introducir valores >=0) 999
+Teneis mascota? (Si/No) No
+Indica el tipo de margen que teneis (Ninguno|Bajo|Alto) Bajo
+Indica a partir de que precio una vivienda ya no te resultaria aceptable: 1
+Indica el numero de vehiculos privados que teneis (Porfavor introducir valores >=0) 0
+Indica vuestras necesidades (hay que introducir un conjunto de valores de la lista {Garaje, Jardin, Piscina, Ascensor, Terraza, Balcon, Amueblado, Equipado, AC, Calefaccion}) 
+Indica una necesidad: Jardin
+Quieres anadir otra necesidad? (s/n) n
+Cuantas habitaciones simples quereis (Por favor, introducir valores > 0) 3
+Cuantas habitaciones dobles quereis (Por favor, introducir valores > 0) 3
+Indica cuantos individuos forman parte del grupo: 1
+Individuo 1
+Indica su nombre Pepe
+¿Cual es su edad? (valor >=0) 30
+Tiene una discapacidad? (Si/No) No
+Indica su estado civil (Casada/o|Divorciada/o|Viuda/o|Soltera/o) Soltera/o
+Indica su ocupacion (Parado|Estudia|Estudia/Trabaja|Trabaja) Parado
+Indica su sexo (Masculino/Femenino/Otro) Masculino
+[LocCasa2]: Adecuado
+[LocCasa3]: Muy recomendable
+La vivienda [LocCasa3] viene equipada con la caracteristica extra siguiente: AC.
+La vivienda [LocCasa3] viene equipada con la caracteristica extra siguiente: Equipado.
+La vivienda [LocCasa3] viene equipada con la caracteristica extra siguiente: Amueblado.
+CLIPS> 

@@ -1,0 +1,23 @@
+
+	Indica un servicio deseado: Ocio
+	Indica el subtipo del servicio deseado: NoRuidoso
+	Indica a que distancia quieres el servicio {Cerca|Media} Cerca
+	Quieres anadir otro servicio? (s/n) n
+	Cuanto dinero teneis? (Porfavor introducir valores >=0) 1000
+	Teneis mascota? (Si/No) No
+	Indica el tipo de margen que teneis (Ninguno|Bajo|Alto) Alto
+	Indica a partir de que precio una vivienda ya no te resultaria aceptable: 500
+	Indica el numero de vehiculos privados que teneis (Porfavor introducir valores >=0) 0
+	Indica vuestras necesidades (hay que introducir un conjunto de valores de la lista 
+		{Garaje, Jardin, Piscina, Ascensor, Terraza, Balcon, Amueblado, Equipado, AC, Calefaccion}) 
+	Indica una necesidad: Jardin
+	Quieres anadir otra necesidad? (s/n) n
+	Cuantas habitaciones simples quereis (Por favor, introducir valores > 0) 3
+	Cuantas habitaciones dobles quereis (Por favor, introducir valores > 0) 3
+
+	[LocCasa3]: Adecuado
+	[LocCasa2]: Adecuado
+	[LocCasa1]: Muy recomendable
+	El precio de la vivienda [LocCasa1] se encuentra por debajo de los ingresos disponibles.
+
+

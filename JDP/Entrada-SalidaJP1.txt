@@ -1,0 +1,51 @@
+Indica un servicio deseado: Restauracion
+Indica el subtipo del servicio deseado: Bar
+Indica a que distancia quieres el servicio {Cerca|Media} Cerca
+Quieres anadir otro servicio? (s/n) n
+Cuanto dinero teneis? (Porfavor introducir valores >=0) 5000000
+Teneis mascota? (Si/No) No
+Indica el tipo de margen que teneis (Ninguno|Bajo|Alto) Bajo
+Indica a partir de que precio una vivienda ya no te resultaria aceptable: 1
+Indica el numero de vehiculos privados que teneis (Porfavor introducir valores >=0) 0
+Indica vuestras necesidades (hay que introducir un conjunto de valores de la lista 
+	{Garaje, Jardin, Piscina, Ascensor, Terraza, Balcon, Amueblado, Equipado, AC, Calefaccion}) 
+Indica una necesidad: Jardin
+Quieres anadir otra necesidad? (s/n) n
+Cuantas habitaciones simples quereis (Por favor, introducir valores > 0) 1
+Cuantas habitaciones dobles quereis (Por favor, introducir valores > 0) 1
+Indica cuantos individuos forman parte del grupo: 1
+Individuo 1
+Indica su nombre Pepe
+¿Cual es su edad? (valor >=0) 30
+Tiene una discapacidad? (Si/No) No
+Indica su estado civil (Casada/o|Divorciada/o|Viuda/o|Soltera/o) Soltera/o
+Indica su ocupacion (Parado|Estudia|Estudia/Trabaja|Trabaja) Parado
+Indica su sexo (Masculino/Femenino/Otro) Masculino
+
+
+
+
+
+
+
+[LocCasa1]: Muy recomendable
+[LocCasa2]: Muy recomendable
+[LocCasa4]: Parcialmente adecuado
+[LocCasa3]: Parcialmente adecuado
+La vivienda en [LocCasa1] tiene Salud como servicio extra.
+La vivienda en [LocCasa1] tiene Deporte como servicio extra.
+La vivienda en [LocCasa1] tiene Ocio como servicio extra.
+La vivienda en [LocCasa2] tiene Salud como servicio extra.
+La vivienda en [LocCasa2] tiene Deporte como servicio extra.
+La vivienda en [LocCasa2] tiene Ocio como servicio extra.
+La vivienda en [LocCasa4] tiene Restauracion a media distancia.
+La vivienda en [LocCasa3] tiene Restauracion a media distancia.
+El precio de la vivienda [LocCasa1] se encuentra por debajo de los ingresos disponibles.
+El precio de la vivienda [LocCasa2] se encuentra por debajo de los ingresos disponibles.
+La vivienda [LocCasa1] viene equipada con la caracteristica extra siguiente: AC.
+La vivienda [LocCasa1] viene equipada con la caracteristica extra siguiente: Equipado.
+La vivienda [LocCasa1] viene equipada con la caracteristica extra siguiente: Amueblado.
+La vivienda [LocCasa2] viene equipada con la caracteristica extra siguiente: AC.
+La vivienda [LocCasa2] viene equipada con la caracteristica extra siguiente: Equipado.
+La vivienda [LocCasa2] viene equipada con la caracteristica extra siguiente: Amueblado.
+
